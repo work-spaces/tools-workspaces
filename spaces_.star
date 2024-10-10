@@ -1,5 +1,5 @@
 """
-Checkout the tools-llvm repository for building and releasing llvm.
+Checkout the tools-python repository for building and releasing python.
 """
 
 checkout.update_env(
@@ -13,9 +13,9 @@ checkout.update_env(
 )
 
 checkout.add_repo(
-    rule = {"name": "tools-llvm"},
+    rule = {"name": "tools-spaces"},
     repo = {
-        "url": "https://github.com/work-spaces/tools-llvm",
+        "url": "https://github.com/work-spaces/tools-spaces",
         "rev": "main",
         "checkout": "Revision",
     },
